@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.profile_chatmessage {
+  height: 800px;
+}
+.mainpage_msg {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background-color: white;
+  padding: 5px;
+  gap: 10px;
+  height: 600px;
+}
+.msg_content {
+  border: 2px solid white;
+  width: 200px;
+  background-color: rgba(128, 128, 128, 0.222);
+  margin-left: 250px;
+  padding: 5px;
+}
+.msg_information {
+  border: 2px solid white;
+  width: 200px;
+  background-color: rgba(128, 128, 128, 0.222);
+  margin-left: 250px;
+  padding: 5px;
+}
+.msg_box {
+  border: 2px solid white;
+  width: 150px;
+  background-color: rgba(128, 128, 128, 0.258);
+  padding: 5px;
+}
+.msg_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.msg_button > button {
+  color: rgba(0, 0, 0, 0.522);
+  border: 2px solid rgba(0, 0, 0, 0.537);
+}

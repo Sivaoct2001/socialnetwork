@@ -1,0 +1,4 @@
+.recent_chat {
+  display: flex;
+  gap: 30px;
+}

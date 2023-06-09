@@ -1,0 +1,82 @@
+.main_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0;
+  border: 2px solid gray;
+  gap: 40px;
+  position: sticky;
+  top: 0;
+  padding: 30px;
+  background-color: white;
+}
+.sreach_box {
+  display: flex;
+}
+.sreach_box > button {
+  background-color: lightblue;
+  width: 50px;
+  height: 50px;
+}
+.sreach_box > button img {
+  width: 50px;
+  height: 50px;
+}
+.main_header > a {
+  text-decoration: none;
+  color: black;
+}
+.main_header > button {
+  border: none;
+}
+.main_header > h1 {
+  border: 20px;
+  background-color: rgb(41, 144, 139);
+  color: white;
+}
+.main_header > .log button {
+  background-color: rgb(25, 102, 128);
+  color: white;
+  padding: 10px;
+}
+button > img {
+  width: 50px;
+  height: 50px;
+}
+.hamimage {
+  display: none;
+}
+.sidebar {
+  background-color: aquamarine;
+  padding: 20px;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  display: none;
+}
+.sidebar_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.head_links {
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 960px) {
+  .hamimage {
+    display: block;
+  }
+  .sidebar {
+    display: block;
+  }
+  .sreach_box,
+  .head_links {
+    display: none;
+  }
+}

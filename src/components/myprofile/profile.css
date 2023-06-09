@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_profile > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.profile_hero {
+  display: flex;
+  align-items: center;
+}
+.profile_hero > img {
+  width: 25px;
+  height: 25px;
+}
+.profile_post {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.main_profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 600px;
+  padding: 15px;
+  align-items: center;
+
+  background-color: white;
+}
+.profile_post > button {
+  border: none;
+  background-color: lightblue;
+  padding: 10px;
+  color: blue;
+}
+.main_profile > button {
+  border: 2px solid blue;
+  color: blue;
+}

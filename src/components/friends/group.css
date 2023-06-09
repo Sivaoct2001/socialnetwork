@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.friend_main {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.socialmedia_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.empty_img {
+  border-radius: 50%;
+  border: 10px solid gray;
+  background-color: white;
+  top: 90px;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  position: relative;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  top: 50px;
+  padding: 20px;
+}
+.name > img {
+  width: 30px;
+}
+.post {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.post > p {
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(130, 130, 190);
+}
+.post > button {
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(134, 134, 184);
+  background-color: rgb(152, 255, 253);
+  border: none;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  width: 400px;
+}
+.definition > p {
+  font-size: 20px;
+  color: lightskyblue;
+}
+.definition > h2 {
+  font-size: 25px;
+  color: black;
+  gap: 20px;
+}
+.definition {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+#designation {
+  color: rgb(156, 156, 190);
+  gap: 20px;
+}
+.submit > button {
+  font-size: 20px;
+  margin: 20px 0;
+  padding: 10px;
+  color: lightskyblue;
+  border-color: lightskyblue;
+}
+.submit > button:active {
+  color: black;
+}
