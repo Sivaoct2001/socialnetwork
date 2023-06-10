@@ -1,0 +1,60 @@
+.profile_name > img {
+  width: 20px;
+  height: 20px;
+}
+.follow_img {
+  width: 50px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid darkgray;
+}
+.follow_hero {
+  display: flex;
+  gap: 10px;
+  width: 350px;
+  border: 2px solid gray;
+  background-color: white;
+  padding: 10px;
+}
+.profile_name {
+  display: flex;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.follow_button {
+  display: flex;
+  gap: 70px;
+}
+#message {
+  border: none;
+  background-color: aqua;
+}
+.card_img {
+  display: flex;
+  height: 10px;
+  width: 30px;
+  background-color: blue;
+}
+#follows {
+  color: black;
+  background-color: white;
+}
+.card_color {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: white;
+  border: 2px solid gray;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  width: 400px;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_project {
+  display: flex;
+  box-shadow: 10px 10px 15px lightgray;
+  width: 500px;
+  height: 300px;
+  gap: 100px;
+  padding: 20px;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 500px;
+  gap: 15px;
+}
+.main_preview {
+  display: flex;
+  flex-direction: row;
+}
+.add_previews {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+form {
+  display: flex;
+  gap: 40px;
+}

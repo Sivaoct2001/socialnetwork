@@ -6,10 +6,11 @@ import post from "../../assets/images/post_icon.jpeg";
 import ham from "../../assets/icons/ham_svg.svg";
 import cancel from "../../assets/icons/cancel_svg.svg";
 import "./header.css";
-import { useState } from "react";
+import Project from "../add_project/project_links";
 
 const Header = () => {
-  const [sidebarOn, setSidebarOn] = useState(false);
+  const [addPostOpen, setAddpostOpen] = React.useState(false);
+  const [sidebarOn, setSidebarOn] = React.useState(false);
   const hamburger = (
     <>
       {!sidebarOn ? (
@@ -60,15 +61,16 @@ const Header = () => {
           <img src={msg} alt="msg" />
         </Link>
       </div>
-      <button>
+      <button onClick={() => setAddpostOpen(true)}>
         <img src={post} alt="post" />
-        createposts
+        Ceratepost
       </button>
       {hamburger}
       {sidebarOn && sidebar}
       <div className="log">
         <button>Logout</button>
       </div>
+      <craeteposts trigger={addPostOpen} setTrigger={setAddpostOpen} />
     </div>
   );
 };
